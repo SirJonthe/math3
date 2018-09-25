@@ -232,7 +232,7 @@ function m3x3_euler(nhead, npitch, nroll)
     return m3x3(
         (COSR*COSH) - (SINR*SINP*SINH), -SINR*COSP, (COSR*SINH) + (SINR*SINP*COSH),
         (SINR*COSH) + (COSR*SINP*SINH), COSR*COSP,  (SINR*SINH) - (COSR*SINP*COSH),
-        -COSP*SINH,                     SINP,       COSP*COSH,
+        -COSP*SINH,                     SINP,       COSP*COSH
     );
 }
 
